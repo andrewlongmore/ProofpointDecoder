@@ -1,0 +1,11 @@
+﻿[*.cs]
+
+# SA1633: The file header is missing or not located at the top of the file - headers not required
+dotnet_diagnostic.SA1633.severity = none
+
+# SA1200: Using directives should be placed correctly - not standard
+dotnet_diagnostic.SA1200.severity = none
+
+# SA1600: Elements should be documented - can lead to trivial documentation
+dotnet_diagnostic.SA1600.severity = none
+
