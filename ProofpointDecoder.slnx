@@ -1,9 +1,17 @@
 <Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x86" />
+  </Configurations>
   <Folder Name="/Solution Items/">
     <File Path=".editorconfig" />
     <File Path=".gitignore" />
     <File Path="README.md" />
   </Folder>
-  <Project Path="ProofpointDecoder/ProofpointDecoder.csproj" />
-  <Project Path="ProofpointDecoderTests/ProofpointDecoderTests.csproj" />
+  <Project Path="ProofpointDecoder/ProofpointDecoder.csproj">
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
+  <Project Path="ProofpointDecoderTests/ProofpointDecoderTests.csproj">
+    <Platform Solution="*|x86" Project="x86" />
+  </Project>
 </Solution>
